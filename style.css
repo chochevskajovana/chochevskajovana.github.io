@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+
+
+body{
+    background-color: black;
+    max-width: 1950px;
+    margin: auto;
+}
+
+header p{
+    float: left;
+    margin-top: 2%;
+    color: white;
+    margin-left: 6%;
+    font-family: 'Spectral SC', serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header a{
+    float: right;
+    padding-right: 5px;
+    text-decoration: none;
+    color: white;
+    margin-right: 3%;
+    margin-top: 2%;
+    font-family: 'Spectral SC', serif;
+}
+header a:hover{
+   color: rgb(175, 192, 255);
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    /*align-items: center;
+    justify-content: center;*/
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    margin-left: 280px;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+    height: 600px;
+    background-color: #1e1f22;
+    margin-left: -300px;
+    color: white;
+}
+
+.right {
+    width: 25%;
+    min-height: 400px;
+    background-color: #25294f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-left: -200px;
+    color: white;
+    position: relative;
+}
+.right h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+.right p {
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 25px;
+
+}
+.right a {
+    text-decoration: none;
+    text-transform: uppercase;
+    /*background-color: #444998;*/
+    color: black;
+    padding: 7px 18px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+
+.line {
+    margin-top: -40px;
+}
+
+#logo {
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+}
+#logo img {
+    border-radius: 100%;
+}
+#logo img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.logo{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+img.logo {
+    margin-right: 30px;
+}
+img.logo:last-child {
+    margin-right: 0;
+}
+
+#ime{
+    font-family: 'Allura', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+#calling{
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    margin-top: -7px;
+}
+.content img{
+    border-radius: 48%;
+}
+
+.c {
+    margin-left: 5%;
+    width: 450px;
+    font-family: 'Playfair Display', serif;
+    /*font-family: 'Lato', cursive;*/
+}
+.c h1{
+    /*font-family: 'Prata', serif;
+    font-family: 'Philosopher', sans-serif;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-family: 'Rokkitt', serif;*/
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.c p{
+    text-align: justify;
+}
+
+#he{
+    font-size: medium;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+}
+
+.btn{
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #1e1f22;
+    border-radius: 5px;
+    background: #2f3664;
+    color: #fff;
+    margin: 2px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(175, 192, 255);
+    color: #fff;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.vtor{
+    background-color: #1e1f22;
+    height: 300px;
+    color: white;
+}
+
+.vtor ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    height: 100%;
+}
+
+.vtor ul li:first-child {
+    margin-right: 50px;
+}
+.vtor h1{
+    font-family: 'Playfair Display', serif;
+}
+
+.vtor ul li {
+    position: relative;
+}
+
+.vtor ul li .skill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 96%;
+    height: 97.75%;
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 0;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(175, 192, 255);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.vtor ul li:hover .skill {
+    opacity: 0.75;
+    cursor: grabbing;
+}
+
+.vtor ul li:hover p {
+    opacity: 0.75;
+    cursor: grabbing;
+}
+
+img{
+    box-sizing: content-box;
+    width: 200px;
+    height: 190px;
+    margin-right: 8px;
+    border-radius: 8px;
+}
+.i{
+    font-family: 'Days One', sans-serif;
+}
+
+.obrazovanie h1{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.obrazovanie h2 {
+    font-family: 'Dosis', sans-serif;
+}
+.contain {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #111;
+}
+
+.timeline {
+    width: 80%;
+    height: auto;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.timeline ul {
+    list-style: none;
+}
+
+.timeline ul li {
+    padding: 20px;
+    background-color: #1e1f22;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.timeline ul li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-content h1 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.timeline-content p {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+}
+
+.timeline-content .date {
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+    .timeline:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 100%;
+        background-color: gray;
+    }
+    .timeline ul li {
+        width: 50%;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .timeline ul li:nth-child(odd) {
+        float: left;
+        clear: right;
+        transform: translateX(-30px);
+        border-radius: 20px 0 20px 20px;
+    }
+    .timeline ul li:nth-child(even) {
+        float: right;
+        clear: left;
+        transform: translateX(30px);
+        border-radius: 0 20px 20px 20px;
+    }
+    .timeline ul li::before {
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: gray;
+        top: 0;
+    }
+    .timeline ul li:nth-child(odd)::before {
+        transform: translate(50%, -50%);
+        right: -30px;
+    }
+    .timeline ul li:nth-child(even)::before {
+        transform: translate(-50%, -50%);
+        left: -30px;
+    }
+    .timeline-content .date {
+        position: absolute;
+        top: -30px;
+    }
+    .timeline ul li:hover::before {
+        background-color: #445998;
+        cursor: pointer;
+    }
+}
+.obrazovanie{
+    color: white;
+}
+.iframe{
+    position: relative;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: #282828;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    font-family: 'Lato', cursive;
+    color: white;
+}
